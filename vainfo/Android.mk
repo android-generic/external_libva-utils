@@ -21,6 +21,7 @@ LOCAL_VENDOR_MODULE := true
 LOCAL_MODULE := vainfo
 
 LOCAL_SHARED_LIBRARIES := libva-android libva libdl libcutils libutils libgui_vendor
+LOCAL_HEADER_LIBRARIES := libva_headers
 
 include $(BUILD_EXECUTABLE)
 
